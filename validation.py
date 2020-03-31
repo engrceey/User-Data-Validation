@@ -15,7 +15,7 @@ while True:
 
     # A function to generate Random String of length 5
     def randomLetter(length = 5):
-        letters = string.ascii_lowercase
+        letters = string.ascii_letters
         randomString = "".join(random.choice(letters) for i in range(length))
         return randomString
 
