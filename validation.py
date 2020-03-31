@@ -52,5 +52,6 @@ while True:
         break
 
 for key, value in users.items():
-    print(value)
+    print("First Name: %s, Last Name: %s, Email: %s, Password: %s" % (value[0],value[1],value[2],value[3]))
+
 
